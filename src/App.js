@@ -1,12 +1,10 @@
-import logo from "./logo.svg";
-import "./App.css";
-import { AnimatedTree } from "react-tree-graph";
-import TreeContainer from "./Components/TreeContainer";
+import DiagonalTree from "./Components/DiagonalTree";
 
 function App() {
-
   return (
-    <TreeContainer />
+    <div>
+      <DiagonalTree/>
+    </div>
   );
 }
 
